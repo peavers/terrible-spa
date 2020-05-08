@@ -10,6 +10,6 @@ import { DirectoryDialogComponent } from './components/directory-dialog/director
   declarations: [DefaultComponent, EditDialogComponent, DirectoryDialogComponent],
   imports: [SharedModule, RoutingModule],
   exports: [],
-  entryComponents: [EditDialogComponent, DirectoryDialogComponent],
+  entryComponents: [EditDialogComponent, DirectoryDialogComponent]
 })
 export class SystemModule {}

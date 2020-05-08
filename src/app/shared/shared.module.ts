@@ -24,7 +24,7 @@ import { PageTitleComponent } from './components/page-title/page-title.component
     RouterModule,
     MaterialModule,
     ReactiveFormsModule,
-    MomentModule,
+    MomentModule
   ],
   declarations: [
     EditDialogComponent,
@@ -37,7 +37,7 @@ import { PageTitleComponent } from './components/page-title/page-title.component
     VideoCardMenuComponent,
     NavigationBarComponent,
     SelectBarComponent,
-    PageTitleComponent,
+    PageTitleComponent
   ],
   exports: [
     CommonModule,
@@ -54,9 +54,9 @@ import { PageTitleComponent } from './components/page-title/page-title.component
     VideoCardMenuComponent,
     SearchBarComponent,
     NavigationBarComponent,
-    UserPictureComponent,
+    UserPictureComponent
   ],
   entryComponents: [EditDialogComponent],
-  providers: [MaterialModule],
+  providers: [MaterialModule]
 })
 export class SharedModule {}
