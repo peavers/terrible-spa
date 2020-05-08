@@ -8,6 +8,6 @@ import { MomentModule } from 'ngx-moment';
   declarations: [DefaultComponent],
   imports: [SharedModule, RoutingModule, MomentModule],
   exports: [],
-  entryComponents: [],
+  entryComponents: []
 })
 export class VideoModule {}

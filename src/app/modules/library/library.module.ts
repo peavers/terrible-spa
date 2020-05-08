@@ -11,6 +11,6 @@ import { CollectionComponent } from './pages/collections/collections.component';
   declarations: [DefaultComponent, ListComponent, CollectionComponent],
   imports: [SharedModule, LibraryRoutingModule, MomentModule, VirtualScrollerModule],
   exports: [],
-  entryComponents: [],
+  entryComponents: []
 })
 export class LibraryModule {}

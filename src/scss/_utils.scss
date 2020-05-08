@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 .is-fullheight {
   height: 100%;
@@ -6,7 +6,7 @@
 }
 
 .metadata {
-  color: rgba(0, 0, 0, .54);
+  color: rgba(0, 0, 0, 0.54);
   font-size: 14px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .action {
-  color:  var(--primary-color);
+  color: var(--primary-color);
   display: inline-block;
   font-size: 13px;
   font-weight: 400;
