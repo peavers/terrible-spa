@@ -4,7 +4,7 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
   selector: 'app-page-title',
   templateUrl: './page-title.component.html',
   styleUrls: ['./page-title.component.scss'],
-  encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.None
 })
 export class PageTitleComponent {
   @Input()
