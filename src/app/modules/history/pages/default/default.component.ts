@@ -15,7 +15,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   templateUrl: './default.component.html',
   styleUrls: ['./default.component.scss'],
   encapsulation: ViewEncapsulation.None,
-  animations: Utils.fadeAnimation(),
+  animations: Utils.fadeAnimation()
 })
 export class DefaultComponent implements OnInit {
   constructor(
@@ -44,12 +44,12 @@ export class DefaultComponent implements OnInit {
       title: `Delete all history`,
       message: 'This is irreversible. We will purge all history.',
       cancelText: 'Cancel',
-      confirmText: 'Confirm',
+      confirmText: 'Confirm'
     };
 
     Utils.openConfirmDialog(this.dialog, dialogData)
       .afterClosed()
-      .subscribe((response) => {
+      .subscribe(response => {
         if (response) {
           this.historyService.deleteHistory().subscribe(() => {
             this.snackBar.open(`All history purged.`);
